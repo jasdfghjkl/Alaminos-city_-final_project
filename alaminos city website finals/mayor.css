@@ -1,0 +1,190 @@
+body{
+    z-index: 1;
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 30px; 
+    font-size: 12px;
+  }
+  .navbar{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+  }
+  .navbar-brand{
+    padding-left: 20px;
+    height: 65px;
+    width: 78px;
+  }
+  .navbar-nav{
+    position: fixed;
+    margin-left: 20px;
+  }
+  .nav-item .nav-link{
+    font-size: 13px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    padding-right: 20px;
+    transition: 0.5s ease;
+  }
+  .nav-item .nav-link:hover{
+    background: #16c79e;
+    color: white;
+  }
+  #navbar form button{
+    background: #16c79e;
+    color: white;
+    border: none;
+  }
+  .navbar-nav {
+  margin-left: 33%;
+  }
+  
+  .nav-item{
+    font-family: SST,helvetica,arial,sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+   
+  }
+  .mayor-img {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+  .city-name {
+    color: black;
+    font-family: SST,helvetica,arial,sans-serif;
+      font-size: 18px;
+      text-decoration: none;
+  }
+  
+  #contact{
+    padding:100px;
+    font-family: SST,helvetica,arial,sans-serif;
+  }
+  
+  #contact p {
+    font-family: SST,helvetica,arial,sans-serif;
+    font-size: 15px;
+    padding-top:20px;
+  }
+  .container{
+    padding:40px;
+  }
+
+  media only screen and (max-width: 430px){
+  body {
+    z-index: 1;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 20px; 
+    font-size: 11px; 
+}
+
+.navbar {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.navbar-brand {
+    padding-left: 10px; 
+    height: 50px; 
+    width: 60px; 
+}
+
+.navbar-nav {
+    position: fixed;
+    margin-left: 10px; 
+}
+
+.nav-item .nav-link {
+    font-size: 12px; 
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    padding-right: 15px; 
+    transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover {
+    background: #16c79e;
+    color: white;
+}
+
+#navbar form button {
+    background: #16c79e;
+    color: white;
+    border: none;
+}
+
+.navbar-nav {
+    margin-left: 20%; 
+}
+
+.nav-item {
+    font-family: SST, Helvetica, Arial, sans-serif;
+    font-size: 14px; 
+    text-decoration: none;
+}
+
+.mayor-img {
+    width: 50%; 
+    margin-bottom: 20px; 
+}
+
+.city-name {
+    color: black;
+    font-family: SST, Helvetica, Arial, sans-serif;
+    font-size: 14px; 
+    text-decoration: none;
+}
+
+#contact {
+    padding: 40px;
+    font-family: SST, Helvetica, Arial, sans-serif;
+}
+
+#contact p {
+    font-family: SST, Helvetica, Arial, sans-serif;
+    font-size: 14px; 
+    padding-top: 20px;
+}
+
+.container {
+    padding: 20px; 
+}
+
+footer {
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    text-align: center;
+    background: #16c79e;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    width: 100%;
+}
+  }
+@media only screen and (max-width: 430px) {
+    .navbar-nav {
+        margin-left: 10px; 
+    }
+
+    .nav-item .nav-link {
+        padding-right: 10px; 
+    }
+}
+
+  footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: #16c79e;
+    color: rgb(255, 255, 255);
+    margin: 0 auto; 
+    width: 100%; 
+  }
+
